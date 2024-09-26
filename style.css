@@ -1,0 +1,147 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  background: url("https://www.balcanicaucaso.org/var/obc/storage/images/articoli-da-pubblicare-2/quale-futuro-per-il-turismo-in-bulgaria-196104/1920333-1-ita-IT/Quale-futuro-per-il-turismo-in-Bulgaria.jpg");
+  background-size: cover;
+  background-position: center;
+  background: linear-gradient(0,0,0,9);
+  @media only screen and (max-width:500px) {
+  /* For mobile phones: */
+    width: 100%;
+    @media only screen and (max-width:800px) {
+  /* For tablets: */
+    width: 80%;
+    padding: 0;
+  }
+  }
+  
+ 
+  
+}
+
+.container  {
+  padding-left: 8%;
+  padding-right: 8%;
+  
+  
+ }
+ 
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center; 
+}
+  
+  
+#logo  {
+  width: 50px;
+  cursor: pointer;
+  border: 2px solid black;
+ 
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+  font-size: 20px;
+  text-shadow: 0px 0px 1px #000;
+  
+}
+
+  
+.row {
+  display: flex;
+  height: 88%;
+  align-items: center;
+   
+}  
+.col {
+  flex-basis: 40%;
+  margin-left: 50px;
+  
+  
+} 
+p {
+  color: #fff;
+  line-height: 15px;
+  font-size: 17px;
+  margin-left: 20px;
+
+}   
+button {
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0px;
+  background: #fff;
+  border: none;
+  border-radius:  20px;
+  margin-top:  20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+h1 {
+  color:#fff;
+  font-size: 100px;
+  margin-left: 20px;
+}
+  
+.card {
+ width: 200px;
+ height: 230px; 
+ display: inline-block;
+ border-radius:  10px;
+ border: 2px solid blue;
+ padding: 15px 25px;
+ box-sizing: border-box;
+ cursor: pointer;
+ margin: 20px 25px;
+ background-position: right;
+ background-size: cover;
+ 
+  
+} 
+
+#card1 {
+  background-image: url("https://rilamonasterybus.com/wp-content/uploads/2019/11/Rila-Resized.jpg");
+  
+}
+#card2 {
+   background-image: url("https://content.tui.co.uk/adamtui/2018_11/9_12/38bdbfe1-0264-4bcb-abc2-a99300cc6003/BUL_BOR_F0134WebOriginalCompressed.jpg?i10c=img.resize(width:1080);img.resize(height:608);img.crop(width:1080%2Cheight:608)");
+}
+
+#card3 {
+   background-image: url("https://s.inyourpocket.com/gallery/304308.jpg");
+}
+
+#card4 {
+   background-image: url("https://bgexplorer.com/wp-content/uploads/2024/05/Rila_Monastery_Bulgaria.jpg");
+  
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+h5 {
+  color: #fff;
+  text-shadow: 0 0 7px #999;
+}
+.card p {
+  color: #fff;
+  text-shadow: 0 0 1px #999;
+  font-size: 14px;
+}
+
+#footer {
+  color: white;
+  text-align: center;
+  margin-bottom: 2px;
+}
